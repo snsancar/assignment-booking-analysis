@@ -89,6 +89,5 @@ Here are some tips to get you going:
  * Work in an agile way! You might not be able to implement all of the features 
    for this assignment in the alotted time, so be smart in picking the features you 
    work on first.
- * Make use of the coaching that is offered. Daan, Simon and Chiem can answer questions 
-   you have, and you can always discuss your ideas with them.
+ * If you have any questions, feel free to send us an email!
 
