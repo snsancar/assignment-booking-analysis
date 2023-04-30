@@ -89,6 +89,6 @@ object BookingUtil {
           sum(when(col("passengerType")===lit("ADT"), lit(1)).otherwise(lit(0))).as("no_of_adults"),
           sum(when(col("passengerType")===lit("CHD"), lit(1)).otherwise(lit(0))).as("no_of_childs"),
         )
-        .orderBy("season", "day_of_the_week", "no_of_passengers")
+        .orderBy(col("no_of_passengers").desc)
     }
 }
